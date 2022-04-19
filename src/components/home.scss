@@ -1,0 +1,111 @@
+.home {
+    width: 100%;
+    padding: 20px;
+    margin: auto;
+
+    .counter {
+        margin: auto;
+        display: flex;
+        justify-content: center;
+
+        button {
+            background: brown;
+            border: none;
+            padding: 5px 15px;
+            border-radius: 3px;
+            color: white;
+            font-size: 15px;
+            margin: 0 10px;
+            cursor: pointer;
+        }
+
+        span.span {
+            display: inline-block;
+            width: 150px;
+            line-height: 30px;
+            border-radius: 0;
+            border: 1px solid crimson;
+        }
+
+        .darkmode {
+            width: 70px;
+            display: flex;
+            background: lightcoral;
+            border-radius: 50px;
+            justify-content: space-around;
+            align-items: center;
+            position: relative;
+            height: 30px;
+
+            span {
+                font-size: 15px;
+                color: white;
+                height: 22px;
+            }
+
+            .btn {
+                position: absolute;
+                width: 30px;
+                background: gray;
+                border-radius: 50%;
+                height: 30px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                right: 0;
+                cursor: pointer;
+            }
+        }
+    }
+
+
+    .products {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        padding: 20px;
+        justify-content: center;
+    }
+
+    .prodcustitem {
+
+        width: 22%;
+        border: 2px solid salmon;
+        padding: 10px;
+        border-radius: 5px;
+        margin: 10px;
+
+        .product-img {
+            height: 300px;
+
+            img {
+                width: 100%;
+                object-fit: scale-down;
+                height: 76%;
+            }
+        }
+
+        .product-context {
+            .title {
+                color: rebeccapurple;
+                font-weight: bold;
+                font-size: 20px;
+                text-transform: capitalize;
+            }
+
+            .price {
+                text-transform: capitalize;
+                color: brown;
+                font-weight: normal;
+            }
+
+            .category {
+                color: black;
+            }
+
+            .description {
+                color: black;
+            }
+        }
+    }
+}

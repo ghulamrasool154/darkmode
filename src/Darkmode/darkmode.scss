@@ -1,0 +1,37 @@
+.app.darkmode {
+    background-color: black;
+
+    h1 {
+        color: white;
+    }
+
+    .home {
+        .counter span.span {
+            color: white;
+        }
+
+
+
+        .prodcustitem {
+            border-color: rebeccapurple;
+
+            .product-img img {
+                background-color: white;
+            }
+
+            .product-context {
+
+                .title {
+                    color: salmon;
+                }
+
+                .price,
+                .category,
+                .description {
+                    color: white;
+
+                }
+            }
+        }
+    }
+}
