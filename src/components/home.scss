@@ -109,3 +109,31 @@
         }
     }
 }
+
+@media screen and (max-width: 1024px) {
+    .home {
+        padding: 10px;
+
+        .products {
+            padding: 0;
+
+            .prodcustitem {
+                width: 40%;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .home {
+        padding: 10px;
+
+        .products {
+            padding: 0;+
+
+            .prodcustitem {
+                width: 100%;
+            }
+        }
+    }
+}
